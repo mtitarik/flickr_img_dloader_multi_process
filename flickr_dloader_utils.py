@@ -9,8 +9,8 @@ from urllib.request import urlretrieve
 from multiprocessing import Pool
 import flickrapi
 
-api_key = 'a19d1be8aee5ffe772223a36825dceeb'
-secret = 'f67c12be72003c30'
+api_key = ''
+secret = ''
 
 
 def download_flickr_img_url_by_tag(tags, pagenum = None, show_log = False, start_date = None, end_date = None):
